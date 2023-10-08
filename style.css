@@ -1,0 +1,265 @@
+.body {
+  background-image: url("https://t4.ftcdn.net/jpg/01/30/41/43/360_F_130414382_O4tDxNpAVIBnCwOzI6YT3fiPSplEHbLW.jpg");
+  background-size: cover;
+  position: center;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.navbar {
+  background-color: purple;
+  margin-top: -8px;
+  padding-bottom: 5px;
+  padding-top: -15px;
+  height: 28px;
+}
+
+.navbar .logo {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  background-color: purple
+}
+
+.navbar,
+.navlist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 100px;
+}
+
+.navlist li {
+  list-style: none;
+  padding: 20px;
+}
+
+.navlist a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.navlist a:hover {
+  color: red;
+}
+
+#h5 {
+  font-size: 30px;
+  color: white;
+  margin-left: 55px;
+  margin-bottom: -0.99px;
+}
+
+#img1 {
+  width: 75px;
+  height: 75px;
+  margin-left: 255px;
+  margin-top: -150px;
+}
+
+.p img {
+  display: flex;
+}
+
+.p {
+  text-align: justify;
+  text-justify: inter-word;
+  margin-top: 30px;
+  margin-left: 62px;
+  color: white;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  height: 200px;
+  width: 600px;
+  animation: fadeInUp 2s ease
+}
+
+.p::first-letter {
+  font-size: 75px;
+  color: purple;
+}
+
+.p a {
+  color: purple;
+}
+
+#img {
+  margin-left: 700px;
+  margin-top: -230px;
+  height: 250px;
+  width: 250px;
+  border-radius: 8px;
+  box-shadow: #c0c0c0;
+  animation: fadeInUp 2s ease;
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+#img2 {
+  margin-left: 880px;
+  margin-top: -200px;
+  height: 200px;
+  width: 250px;
+  animation: fadeInUp 2s ease;
+}
+
+#h2 {
+  text-align: center;
+  padding: 20px;
+  font-family: sans-serif;
+  color: black;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+#p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 10px;
+  padding-left: 2px;
+  margin-top: -200px;
+  margin-left: 50px;
+  color: white;
+}
+
+#img3 {
+  display: flex;
+  width: 210px;
+  height: 200px;
+  margin-top: -300px;
+  margin-left: 610px;
+}
+
+#btn1 {
+  margin-left: 60px;
+  align-items: center;
+  margin-top: 50px;
+  height: 40px;
+  width: 140px;
+  color: white;
+  background-color: purple;
+  border-radius: 20px;
+  animation: fadeInUp 2s ease;
+  cursor:pointer;
+}
+
+#btn2 {
+  margin-left: 3px;
+  height: 40px;
+  width: 140px;
+  color: white;
+  background-color: purple;
+  border-radius: 20px;
+  animation: fadeInUp 2s ease;
+  cursor:pointer;
+}
+
+.form {
+  background-color: rgb(189, 192, 185);
+  margin-top: 100px;
+  margin-left: 50px;
+  height: 310px;
+  width: 490px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  font-size: 10px;
+  border: 1px solid rgba rgba(0, 0, 0, 0.3);
+  color: transparent;
+}
+
+.form label {
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-size: 18px;
+  margin-left: 65px;
+  margin-top: 2px;
+}
+
+input {
+  font-family: 'Times New Roman', Times, serif;
+  height: 10px;
+  width: 250px;
+  border-radius: 15px;
+  font-size: 15px;
+  font-weight: sans-serif;
+  padding: 7px;
+  background-color: rgb(158, 66, 158);
+  padding-bottom: 15px;
+  margin-left: 3px;
+}
+
+input::placeholder {
+  color: black;
+}
+
+#name {
+  color: black;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  margin-left: 37px;
+}
+
+#email {
+  margin-left: 19px;
+  margin-bottom: 5px;
+}
+
+#contact {
+  margin-left: 3px;
+}
+
+#submit {
+  height: 40px;
+  width: 120px;
+  color: black;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: rgb(166, 76, 166);
+  margin-top: 20px;
+  margin-left: 190px;
+  border-radius: 23px;
+}
+
+#p {
+  display: flex;
+  margin-left: 800px;
+  font-size: 19px;
+
+}
+
+.mar {
+  background-color: purple;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  padding: 4px;
+  height: 25px;
+  color: white;
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 160px;
+  position: absolute;
+}
